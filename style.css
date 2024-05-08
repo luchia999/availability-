@@ -1,0 +1,20 @@
+* {    
+    box-sizing: border-box;
+}
+
+.search-form__submit {
+    padding: 1em;
+    margin: 0 10px;
+    border: 3px solid #386cf7;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: #386cf7;
+    color: #ffffff;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.search-form__submit:hover {
+    opacity: .75;
+}
